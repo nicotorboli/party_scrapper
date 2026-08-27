@@ -1,0 +1,54 @@
+schedule:
+  interval_hours: 6
+
+city_filter:
+  keywords:
+    - buenos aires
+    - bsas
+    - caba
+    - capital federal
+    - palermo
+    - villa crespo
+    - belgrano
+    - caballito
+    - almagro
+    - boedo
+    - flores
+    - san telmo
+    - mataderos
+    - balvanera
+    - chacarita
+    - colegiales
+    - nuñez
+    - saavedra
+    - quilmes
+    - avellaneda
+    - lanus
+    - lanús
+    - lomas de zamora
+    - zona sur
+    - zona oeste
+    - tigre
+    - san isidro
+    - vicente lopez
+    - vicente lópez
+    - olivos
+
+scrapers:
+  allaccess:
+    enabled: true
+    url: https://www.allaccess.com.ar/
+    timeout_seconds: 30
+  polenta:
+    enabled: true
+    url: https://fiestapolenta.com/
+    timeout_seconds: 30
+  wasabi:
+    enabled: true
+    url: https://wasabifest.com.ar/
+    timeout_seconds: 30
+  bresh:
+    enabled: true
+    url: https://www.bresh.com/events
+    timeout_seconds: 60
+    headless: true
